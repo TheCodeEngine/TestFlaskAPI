@@ -9,8 +9,8 @@ from libs.rethink.manager import RDB_BASE_CONFIG
 RDB_NEWS = {
     'host': RDB_BASE_CONFIG['host'],
     'port': RDB_BASE_CONFIG['port'],
-    'db': os.getenv('RDB_DB', 'news'),
-    'table': os.getenv('RDB_TABLE', 'blogposts')
+    'db': 'news',
+    'table_newspaper_article': 'newspaper_article'
 }
 
 
