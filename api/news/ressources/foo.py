@@ -23,6 +23,7 @@ class FooList(restful.Resource):
         selection = list(r.table(RDB_NEWS['table_newspaper_article']).run(g.rdb_conn))
         return selection
 
+
 class FooDetail(restful.Resource):
     def get(self, id):
         pass

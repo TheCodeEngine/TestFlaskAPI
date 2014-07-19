@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48f3677e-4ad8-4f9b-a3c6-9e59e9297903" name="Default" comment="init Base Structure">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/news/libs/database.py" afterPath="$PROJECT_DIR$/api/news/libs/database.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/news/ressources/foo.py" afterPath="$PROJECT_DIR$/api/news/ressources/foo.py" />
     </list>
     <ignored path="BufferServerAPI.iws" />
@@ -42,8 +41,8 @@
       <file leaf-file-name="foo.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/news/ressources/foo.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3708791" vertical-offset="0" max-vertical-offset="728">
-              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.5151099" vertical-offset="0" max-vertical-offset="728">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -318,6 +317,7 @@
     <property name="LayoutCode.rearrangeEntriesPython" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -505,6 +505,9 @@
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" myUseAcceleration="nothing">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="48f3677e-4ad8-4f9b-a3c6-9e59e9297903" name="Default" comment="" />
@@ -643,8 +646,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/news/ressources/foo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3708791" vertical-offset="0" max-vertical-offset="728">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.5151099" vertical-offset="0" max-vertical-offset="728">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
