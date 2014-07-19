@@ -3,7 +3,8 @@ from flask import g
 from flask.ext import restful
 import rethinkdb as r
 from rethinkdb.errors import RqlRuntimeError, RqlDriverError
-from ..lib.database import RDB_NEWS, NewsRDB
+from ..libs.database import RDB_NEWS, NewsRDB
+
 
 class FooList(restful.Resource):
     def get(self):

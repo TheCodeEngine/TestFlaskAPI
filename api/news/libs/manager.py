@@ -1,0 +1,1 @@
+#Integrate CoreManager for news
