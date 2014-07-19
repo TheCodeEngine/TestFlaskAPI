@@ -1,28 +1,12 @@
 from flask import Flask
-from flask.ext.restful import Api, Resource
+from flask.ext import restful
+from api.news.ressources.foo import Foo
 
+app = Flask(__name__)
+api = restful.Api(app)
 
-class TaskListAPI(Resource):
-    def get(self):
-        pass
-
-    def post(self):
-        pass
-
-
-class TaskAPI(Resource):
-    def get(self, id):
-        pass
-
-    def put(self, id):
-        pass
-
-    def delete(self, id):
-        pass
-
-
-api.add_resource(TaskListAPI, '/todo/api/v1.0/tasks', endpoint='tasks')
-api.add_resource(TaskAPI, '/todo/api/v1.0/tasks/<int:id>', endpoint='task')
+# Foo
+api.add_resource(Foo, '/foo')
 
 if __name__ == '__main__':
     app.run(debug=True)
